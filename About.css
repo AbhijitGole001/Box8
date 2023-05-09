@@ -1,0 +1,391 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.head {
+    z-index: 3;
+    background: #fff;
+    box-shadow: 1px 1px 2px #b1adad33;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .headerone {
+    display: flex;
+    justify-content: space-between;
+  }
+  .headerone {
+    padding: 0 60px;
+    height: 70px;
+  }
+  .firstheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+  }
+  
+  .headerlocation {
+    width: calc(95% - 95px);
+  }
+  .location {
+    padding: 5px;
+    margin-left: 16px;
+    width: 331px;
+  }
+  
+  .listheader {
+    display: flex;
+    justify-content: end;
+    margin-left: 475px;
+  }
+  .headerul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+      padding: 0;
+      list-style: none;
+      box-sizing: border-box;
+      text-transform: uppercase;
+      position: relative;
+      top: 3px;
+      left: 197px;
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+  .divli {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+  }
+  .headertext {
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .headlogo1{
+    
+    background: transparent;
+
+  }
+  
+  h1 {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+    position: relative;
+    top: 7px;
+  }
+
+  /* About Section */
+
+  section{
+    display: block;
+  }
+
+  .about-banner{
+    position: relative;
+    width: 100%;
+    height: 340px;
+    margin: 0 auto;
+    background: url(/images/About-img/about-us-banner.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .white-section{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 235px;
+    height: 270px;
+    margin: auto;
+    padding: 35px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 2px 2px 5px #888;
+  }
+  span{
+    color: red;
+  }
+
+  /* section 2  start*/
+
+  .container{
+    width: 1240px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .space-50{
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+  }
+
+  .containner-inner{
+    width: 61%;
+    margin: 0 auto;
+    
+  }
+
+  .space-20{
+    width: 100%;
+    margin: 0 auto;
+    height: 20px;
+  }
+
+  .containner-inner p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 10px;
+    font-family: sans-serif;
+  }
+
+  .btn{
+    text-align: center;
+    margin: 30px auto 50px;
+    max-width: 190px;
+    display: block;
+    font-size: 16px;
+    color: #fff!important;
+    padding: 12px;
+    background: red;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+/* section 2 End */
+
+
+/* Third Section Start */
+
+.tencontainer{
+  background-color: #ffa00017;
+    display: flex;
+    justify-content: center;
+}
+
+.fixed-width_container{
+  display: flex;
+  width: 1240px;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.left{
+  width: 50%;
+    padding: 30px;
+    font-size: 14px;
+    position: relative;
+    left: 130px;
+}
+.footer-text_web{
+  font-size: 24px;
+    padding: 30px;
+
+}
+
+.footer-text{
+display: inline;
+}
+
+.offer{
+  font-size: 32px;
+    margin: 10px 30px;
+    position: relative;
+    top: -11px;
+    font-family: sans-serif;
+}
+
+.offer span{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+ 
+}
+
+.offer-code{
+  border-radius: 7.3px;
+    margin: 10px 30px;
+    padding: 12px;
+    text-align: center;
+    border: solid 1.5px #939393;
+    border-style: dashed;
+    cursor: pointer;
+    border-width: 1px;
+    max-width: 181px;
+    padding-top: 5px;
+    position: relative;
+    top: -12px;
+}
+
+.copy-icon{
+  margin: 0 10px;
+    height: 24px;
+    width: 24px;
+    border-style: none;
+    position: relative;
+    top: 8px;
+}
+
+.store-container{
+  margin: 30px;
+    display: flex;
+    max-width: 300px;
+    justify-content: space-between;
+}
+.store-img{
+  width: 90%;
+    height: 100%;
+    vertical-align: middle;
+    border: 0;
+    vertical-align: middle;
+}
+
+.tenth{
+  cursor: pointer;
+    max-width: 100px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    width: 95%;
+    position: relative;
+    left: 26px;
+
+}
+
+.right{
+  position: relative;
+    width: 50%;
+    font-size: 14px;
+}
+
+.phone-1{
+  width: 220px;
+    position: absolute;
+    height: 100%;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.phone-2{
+  height: 100%;
+    width: 220px;
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+    border-style: none;
+    vertical-align: middle;
+}
+span{
+  color: #000;
+}
+
+
+/* Third Section End */
+
+
+/* Footer Section Start */
+
+.footer {
+  background-color: #000;
+}
+
+.footer-section{
+  width: 100%;
+    margin: 0 auto;
+    height: 328px;
+}
+
+.footer-container {
+  display: flex;
+  
+}
+
+.feature {
+  width: 100%;
+  text-align: center;
+  background-color: #252a33;
+  margin: 5px;
+  padding: 10px;
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.footer-inner{
+  font-size: 12px;
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    color: var(--primary-text-color);
+    position: relative;
+    top: 50px;
+}
+.column-box{
+  display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+h5{
+  padding-left: 20px;
+    color: #fff;
+    font-size: 16px;
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  position: relative;
+    top: 33px;
+}
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-transform: uppercase;
+}
+a{
+  font-weight: 300;
+    line-height: 30px;
+    display: block;
+    padding-left: 20px;
+    list-style: none;
+    cursor: pointer;
+   color: rgb(111, 107, 107);
+   text-decoration: none;
+   font-family: sans-serif;
+    border-left: 2px solid transparent;
+}
+
+/* Footer Section End */
